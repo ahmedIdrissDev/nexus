@@ -51,12 +51,12 @@ body {
   span,
   button,
   input {
-    @apply text-sm opacity-80;
+    @apply text-sm;
   }
 
   /* Cards */
   .cards {
-    @apply w-full h-full p-5
+    @apply w-full p-5
            rounded-2xl bg-white
            border border-neutral-100
            shadow-xl shadow-neutral-100/50;

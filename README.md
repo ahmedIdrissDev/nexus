@@ -8,6 +8,11 @@ Tailwind CSS and TSX components. Do not introduce custom CSS, replacement
 components, arbitrary Tailwind classes, generic dashboard sections, invented
 features, or another UI library when a Nexus component is available.
 
+For application layouts, establish distinct semantic shell regions before
+adding components. Use Grid for two-dimensional shells and Flexbox for
+one-dimensional groups, keep content shrinkable, and define responsive
+behavior for sidebars, headers, main content, and wide tables explicitly.
+
 ## Contents
 
 - `styles/globals.css` — the global Nexus Tailwind CSS source of truth.

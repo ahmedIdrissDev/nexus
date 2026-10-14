@@ -14,7 +14,7 @@ const Sidebard = () => {
         </div>
 <div>
             {button.map(({icon ,label })=>(
-       <Button key={label} className='rounded-md  bg-transparent   opacity-80 hover:op100 flex items-center gap-2 px-2'>
+       <Button key={label} className='rounded-md  bg-transparent   opacity-80 hover:opacity-100 flex items-center gap-2 px-2'>
         {icon}
         <span>{label} </span>
        </Button>
