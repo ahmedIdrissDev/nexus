@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+/* ========================================
+   Root Variables
+======================================== */
+
+:root {
+  --background: #ffffff8a;
+  --foreground: #171717;
+}
+
+/* ========================================
+   Theme Configuration
+======================================== */
+
+@theme inline {
+  /* Colors */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: #1e0cff;
+  --color-secondary: #767676;
+
+  /* Fonts */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --radius-sm: 10px;
+  --radius-md: 10px;
+  --radius-lg: 10px;
+  --radius-xl: 10px;
+  --radius-2xl: 10px;
+  --radius-3xl: 10px;
+}
+
+/* ========================================
+   Base Styles
+======================================== */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ========================================
+   Components
+======================================== */
+
+@layer components {
+  /* Typography */
+  p,
+  span,
+  button,
+  input {
+    @apply text-sm opacity-80;
+  }
+
+  /* Cards */
+  .cards {
+    @apply w-full h-full p-5
+           rounded-2xl bg-white
+           border border-neutral-100
+           shadow-xl shadow-neutral-100/50;
+  }
+
+  /* Buttons */
+  .button {
+    @apply w-full h-11
+           bg-primary hover:opacity-90
+           rounded-full cursor-pointer;
+  }
+
+  /* Inputs */
+  .input {
+    @apply w-full h-11 px-2
+           border border-neutral-100
+           bg-secondary/5 rounded-md
+           outline-0 focus:border-primary;
+  }
+
+  /* Textarea */
+  .textarea {
+    @apply w-full h-40 px-2
+           border border-neutral-100
+           bg-secondary/5 rounded-md
+           outline-0 focus:border-primary
+           resize-none;
+   }
+   label{
+    @apply  font-normal text-sm
+   }
+}
+@layer base {
+  svg.lucide {
+    @apply size-[20px] shrink-0 stroke-[1.5px];
+  }
+}

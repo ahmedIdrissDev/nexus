@@ -1,0 +1,8 @@
+
+interface:
+  display_name: "My UI"
+  short_description: "Apply predefined Tailwind CSS and TSX components"
+  default_prompt: "Use $Nexus to apply our predefined global styles and reusable components to this project. "
+
+policy:
+  allow_implicit_invocation: true
