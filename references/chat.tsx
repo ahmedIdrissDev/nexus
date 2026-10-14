@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../components/ui/button'
-import Cards from '../components/ui/crad'
+import Cards from '../components/ui/card'
 import { Plus, Send } from 'lucide-react'
 import Input from '../components/ui/input'
 

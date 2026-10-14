@@ -1,5 +1,5 @@
 import Button from '../components/ui/button'
-import Cards from '../components/ui/crad'
+import Cards from '../components/ui/card'
 import Input from '../components/ui/input'
 import Image from 'next/image'
 import React from 'react'

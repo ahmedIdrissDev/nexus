@@ -2,7 +2,7 @@ import React from 'react'
 import { twMerge } from 'tailwind-merge';
 
 interface ButtonInterface extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-   children: React.ReactNode;
+  children: React.ReactNode;
 }
 
 const Button = ({

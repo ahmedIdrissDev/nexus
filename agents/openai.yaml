@@ -1,4 +1,3 @@
-
 interface:
   display_name: "Nexus UI"
   short_description: "Apply predefined Tailwind CSS and TSX components"

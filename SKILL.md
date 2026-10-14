@@ -1,4 +1,3 @@
-
 ---
 name: nexus
 description: Apply predefined Nexus Tailwind CSS global styles and reusable TSX/CSS components to React and Next.js applications.

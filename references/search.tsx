@@ -1,5 +1,5 @@
 import React from 'react'
-import Cards from '../components/ui/crad'
+import Cards from '../components/ui/card'
 import Button from '../components/ui/button'
 import { Search } from 'lucide-react'
 import Input from '../components/ui/input'

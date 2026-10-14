@@ -1,10 +1,10 @@
 import React from 'react'
-import Cards from '../components/ui/crad'
+import Cards from '../components/ui/card'
 import Button from '../components/ui/button'
 import Input from '../components/ui/input'
-import Textspace from '../components/ui/textspace'
+import Textspace from '../components/ui/textarea'
 import Image from 'next/image'
-import Lable from './lable'
+import Label from './label'
 
 const Contact = () => {
   return (
@@ -14,10 +14,10 @@ const Contact = () => {
         
         <h2>Get in Touch</h2>
         <p> Have a question or an idea? We&apos;d love to hear from you. Send us a message and we&apos;ll get back to you soon.</p>
-            <Lable>email</Lable>
+            <Label>email</Label>
 
       <Input placeholder='Email' className='rounded-md' />
-      <Lable>Message</Lable>
+      <Label>Message</Label>
       <Textspace/>
        <Button className='rounded-md text-white'>
         send Message
