@@ -1,6 +1,6 @@
 ---
 name: nexus
-description: Apply only the predefined Nexus Tailwind CSS styles and reusable TSX components to React and Next.js applications.
+description: Compose purposeful React and Next.js interfaces from product requirements using only the predefined Nexus Tailwind CSS styles and reusable TSX components.
 ---
 
 # Nexus UI Library
@@ -11,12 +11,20 @@ Nexus is a UI design skill for AI coding agents.
 
 ## Instructions
 
-1. Inspect the existing project and read `styles/globals.css` before changing UI code.
-2. When the user requests a UI element covered by Nexus, reuse the matching component from `components/ui/` or `references/`.
-3. Apply only the Nexus Tailwind CSS classes and components. Do not create replacement components, custom CSS, arbitrary styles, or another UI library when a Nexus component is available.
-4. Copy only the required TSX files and `styles/globals.css`, then update imports for the consuming project.
-5. Install only the runtime dependencies required by the selected components: React, `tailwind-merge`, `lucide-react`, and, for Next.js examples, `next`.
-6. Preserve existing application logic and validate TypeScript and build checks.
+1. Understand the product before writing UI. Identify the product purpose, intended users, primary tasks, most important information, and actions that must be immediately accessible. Use the user's request and existing application context; do not invent product features to fill gaps.
+2. Define the information architecture around user tasks. Decide the primary and secondary content, navigation hierarchy, main actions, relationships between content, semantic page regions, and logical reading order. Every visible section must have a clear purpose.
+3. Compose the smallest useful interface for that architecture. Group related information, establish clear parent-child relationships, prioritize important content, and choose layouts based on actual content and functionality. Do not default to a dashboard, sidebar, metrics, charts, grids, repetitive cards, or empty sections.
+4. Control visual noise. Never invent a logo or brand identity. Do not add decorative sparkle icons, unnecessary navigation items, fake statistics, meaningless widgets, or icons without a clear functional purpose. Prefer a table or simple value when it communicates information better than a chart.
+5. Inspect the existing project and read `styles/globals.css` before changing UI code.
+6. After the structure is clear, discover available components in `components/ui/` and `references/`. Select components for their semantic purpose, reuse their existing TSX/CSS implementations, and map each component to a specific UI need.
+7. Apply only the Nexus Tailwind CSS classes and components. Do not create replacement components, custom CSS, arbitrary styles, or another UI library when a Nexus component is available.
+8. Copy only the required TSX files and `styles/globals.css`, then update imports for the consuming project.
+9. Install only the runtime dependencies required by the selected components: React, `tailwind-merge`, `lucide-react`, and, for Next.js examples, `next`.
+10. Preserve existing application logic and validate TypeScript and build checks.
+
+## Composition review
+
+Before completing implementation, verify that the interface reflects the actual product and user tasks, the primary action is easy to identify, the information hierarchy and reading order are logical, and every visible element serves a purpose. Check that component choices are semantically appropriate, the layout works responsively, important information is not missing, and unnecessary icons, cards, sections, navigation items, and invented content have been removed.
 
 ## Component-only rule
 

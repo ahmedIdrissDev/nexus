@@ -2,10 +2,11 @@
 
 Nexus is a reusable UI skill for React and Next.js projects.
 
-Nexus is intentionally component-only: use the provided Tailwind CSS and TSX
-components for the requested UI. Do not introduce custom CSS, replacement
-components, arbitrary Tailwind classes, or another UI library when a Nexus
-component is available.
+Nexus is intentionally component-only and composition-aware: first organize
+the interface around the product's users and tasks, then use the provided
+Tailwind CSS and TSX components. Do not introduce custom CSS, replacement
+components, arbitrary Tailwind classes, generic dashboard sections, invented
+features, or another UI library when a Nexus component is available.
 
 ## Contents
 

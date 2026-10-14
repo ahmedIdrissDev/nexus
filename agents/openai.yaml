@@ -1,7 +1,7 @@
 interface:
   display_name: "Nexus UI"
-  short_description: "Apply predefined Tailwind CSS and TSX components"
-  default_prompt: "Use only $nexus Tailwind CSS styles and predefined components for the requested UI. Reuse an existing Nexus component whenever possible and do not invent custom styling or replacement components."
+  short_description: "Compose purposeful UIs with Nexus components"
+  default_prompt: "Use $nexus to first plan the product-focused information architecture, then compose the interface with only the predefined Nexus Tailwind CSS styles and TSX components. Avoid generic sections, invented content, unnecessary icons, and custom styling."
 
 policy:
   allow_implicit_invocation: true
