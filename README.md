@@ -17,6 +17,8 @@ behavior for sidebars, headers, main content, and wide tables explicitly.
 
 - `styles/globals.css` — the global Nexus Tailwind CSS source of truth.
 - `references/ui-composition.md` — mandatory product-focused composition and dashboard guidance.
+- `references/component-registry.md` — existing primitive/reference catalog and dashboard comparison.
+- `references/layout-patterns.md` — adaptable dashboard, management, analytics, settings, detail, and shell patterns.
 - `components/ui/` — reusable primitives.
 - `references/` — complete component examples built from those primitives.
 - `agents/openai.yaml` — Codex skill discovery metadata.

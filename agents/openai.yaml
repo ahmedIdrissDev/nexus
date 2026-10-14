@@ -1,7 +1,7 @@
 interface:
   display_name: "Nexus UI"
   short_description: "Compose purposeful UIs with Nexus components"
-  default_prompt: "Use $nexus and read references/ui-composition.md before building non-trivial UI. Plan the product-focused information architecture first, then compose with only the predefined Nexus Tailwind CSS styles and TSX components. Avoid generic dashboards, excessive cards, invented content, unnecessary icons, and custom styling."
+  default_prompt: "Use $nexus. For non-trivial UI, read references/ui-composition.md, references/component-registry.md, and references/layout-patterns.md; plan the product information architecture first, then reuse Nexus components and styles. Avoid generic dashboards, excessive cards, invented content, unnecessary icons, duplicate components, and custom styling."
 
 policy:
   allow_implicit_invocation: true
