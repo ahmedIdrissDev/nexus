@@ -9,7 +9,7 @@ const Alert = () => {
       <div className="flex gap-2 flex-col justify-center items-center ">
         <AlertCircle/>
       <h1 className='text-2xl'>Something Went Wrong</h1>
-      <p>We couldn't add you to the waitlist. </p>
+      <p>We couldn&apos;t add you to the waitlist. </p>
       <div className="grid h-max w-full  grid-cols-2 gap-1.5">
 
       <Button className='text-red-950 bg-red-100' >

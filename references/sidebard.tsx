@@ -1,8 +1,7 @@
 import React from 'react'
 import Cards from '../components/ui/crad'
 import Button from '../components/ui/button'
-import { Home } from 'lucide-react'
-import { button } from '@/lib/button'
+import { button } from '../lib/button'
 
 const Sidebard = () => {
   return (
